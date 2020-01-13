@@ -22,19 +22,17 @@
       background: #009cde;
       margin-top: 5px;
       cursor: pointer;
-
     }
   }
 }
 
 .Toast {
-  width: 508px;
+  width: 550px;
   height: 44px;
-  left: 846px;
-  top: 653px;
-
+  margin-left: -240px;
+  min-height: 30px;
   background: #E1FAE6;
-  border-left: 3px solid #09B66D;
   border: 1px solid #B0DEB9;
+  border-left: 3px solid #09B66D;
   box-sizing: border-box;
 }

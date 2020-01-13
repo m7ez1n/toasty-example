@@ -1,6 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
-import { css } from "glamor";
+
 import Index from "./notificationitem";
 
 import styles from "./styles.module.scss";
@@ -31,29 +31,13 @@ function Main() {
       position: toast.POSITION.BOTTOM_RIGHT,
       autoClose: false,
       closeButton: false,
-      className: css({
-        width: 550,
-        height: 44,
-        marginLeft: -240,
-        minHeight: 30,
-        background: "#E1FAE6",
-        border: "1px solid #B0DEB9",
-        borderLeft: "3px solid #09B66D",
-        boxSizing: "border-box"
-      }),
-      bodyClassName: css({
-        fontStyle: "normal",
-        fontWeight: 800,
-        fontSize: "16px",
-        color: "#44566C"
-      })
+      className: styles['Toast'],
     });
   }
 
   return (
     <div className={styles["Content"]}>
       <div className={styles["Buttons"]}>
-        <Index />
         <button type="button" onClick={handleDefault}>
           Default
         </button>

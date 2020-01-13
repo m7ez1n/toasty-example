@@ -1,9 +1,32 @@
 .Notification {
   display: flex;
+  margin-top: -5px;
   justify-content: space-between;
   align-items: center;
 
+  svg {
+    margin-top: -3px;
+  }
+
   strong {
-    font-size: 20px;
+    font-size: 14px !important;
+    margin-left: -140px;
+    color: #44566C;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-left: -140px;
+    color: #44566C;
+    font-family: Open Sans;
+    font-style: normal !important;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
   }
 }
