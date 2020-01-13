@@ -42,7 +42,6 @@ function Main() {
         boxSizing: "border-box"
       }),
       bodyClassName: css({
-        paddingRight: 10,
         fontStyle: "normal",
         fontWeight: 800,
         fontSize: "16px",
@@ -54,6 +53,7 @@ function Main() {
   return (
     <div className={styles["Content"]}>
       <div className={styles["Buttons"]}>
+        <Index />
         <button type="button" onClick={handleDefault}>
           Default
         </button>
